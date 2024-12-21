@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(222, 184, 135, 0.382);
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+aside {
+  flex: 1;
+  overflow-y: auto;
+  border-left: 1px solid black;
+  background-color: #dddddd6f;
+}
